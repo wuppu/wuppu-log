@@ -1,11 +1,11 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "a6ed6d447e837c34c349bd758fb7e03f",
+    "revision": "e05bf257a0df5fbbf71a7e7c6fb8ef7a",
     "url": "/wuppu-log/index.html"
   },
   {
-    "revision": "0ab492a2cb8405aefad0",
-    "url": "/wuppu-log/static/css/main.961d520f.chunk.css"
+    "revision": "7afabf55ee03f2088a0c",
+    "url": "/wuppu-log/static/css/main.70cd14a5.chunk.css"
   },
   {
     "revision": "8fedec12ead4a390d469",
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/wuppu-log/static/js/2.5bf4929b.chunk.js.LICENSE"
   },
   {
-    "revision": "0ab492a2cb8405aefad0",
-    "url": "/wuppu-log/static/js/main.3824ba25.chunk.js"
+    "revision": "7afabf55ee03f2088a0c",
+    "url": "/wuppu-log/static/js/main.dd59f918.chunk.js"
   },
   {
     "revision": "8ba20c58ba68eedd358b",
