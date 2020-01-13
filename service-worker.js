@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/wuppu-log/precache-manifest.9798115f85b3d7a17d0c212acd3028df.js"
+  "/wuppu-log/precache-manifest.8a220134d62d135f02f88b05307388be.js"
 );
 
 self.addEventListener('message', (event) => {
