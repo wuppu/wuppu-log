@@ -1,22 +1,22 @@
 {
   "files": {
-    "main.css": "/wuppu-log/static/css/main.773cbf70.chunk.css",
-    "main.js": "/wuppu-log/static/js/main.00c39100.chunk.js",
-    "main.js.map": "/wuppu-log/static/js/main.00c39100.chunk.js.map",
+    "main.css": "/wuppu-log/static/css/main.961d520f.chunk.css",
+    "main.js": "/wuppu-log/static/js/main.3824ba25.chunk.js",
+    "main.js.map": "/wuppu-log/static/js/main.3824ba25.chunk.js.map",
     "runtime-main.js": "/wuppu-log/static/js/runtime-main.a8c4a0b2.js",
     "runtime-main.js.map": "/wuppu-log/static/js/runtime-main.a8c4a0b2.js.map",
-    "static/js/2.a482fb85.chunk.js": "/wuppu-log/static/js/2.a482fb85.chunk.js",
-    "static/js/2.a482fb85.chunk.js.map": "/wuppu-log/static/js/2.a482fb85.chunk.js.map",
+    "static/js/2.5bf4929b.chunk.js": "/wuppu-log/static/js/2.5bf4929b.chunk.js",
+    "static/js/2.5bf4929b.chunk.js.map": "/wuppu-log/static/js/2.5bf4929b.chunk.js.map",
     "index.html": "/wuppu-log/index.html",
-    "precache-manifest.f9d996d6d0de23bc234f88765cbae1a4.js": "/wuppu-log/precache-manifest.f9d996d6d0de23bc234f88765cbae1a4.js",
+    "precache-manifest.ea42e96e4ff6b99403c0b4e80e6c4179.js": "/wuppu-log/precache-manifest.ea42e96e4ff6b99403c0b4e80e6c4179.js",
     "service-worker.js": "/wuppu-log/service-worker.js",
-    "static/css/main.773cbf70.chunk.css.map": "/wuppu-log/static/css/main.773cbf70.chunk.css.map",
-    "static/js/2.a482fb85.chunk.js.LICENSE": "/wuppu-log/static/js/2.a482fb85.chunk.js.LICENSE"
+    "static/css/main.961d520f.chunk.css.map": "/wuppu-log/static/css/main.961d520f.chunk.css.map",
+    "static/js/2.5bf4929b.chunk.js.LICENSE": "/wuppu-log/static/js/2.5bf4929b.chunk.js.LICENSE"
   },
   "entrypoints": [
     "static/js/runtime-main.a8c4a0b2.js",
-    "static/js/2.a482fb85.chunk.js",
-    "static/css/main.773cbf70.chunk.css",
-    "static/js/main.00c39100.chunk.js"
+    "static/js/2.5bf4929b.chunk.js",
+    "static/css/main.961d520f.chunk.css",
+    "static/js/main.3824ba25.chunk.js"
   ]
 }
