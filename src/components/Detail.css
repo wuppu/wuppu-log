@@ -2,12 +2,18 @@
     font-size: 5rem;
 }
 
-.detail__bg_title {
+/* .detail__bg_title {
     font-size: 13rem;
     position: absolute;
-    top: 13%;
-    left: 20%;
+    transform: translate(10%, -40%);
     color: rgba(100, 100, 100, 0.5);
+    overflow: hidden;
+    text-overflow: clip;    
+    white-space: nowrap;
     z-index: -1;
-    overflow:hidden;
+    
+} */
+
+.detail {
+    width: 100px;
 }
