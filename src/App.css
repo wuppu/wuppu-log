@@ -1,4 +1,14 @@
-.test {
-  font-size: 3rem;
-  margin-left: 5rem;
+.main__content {
+  padding: 5rem 2rem;
+  width: 80%;
+  height: 70vh;
+  margin-top: 10rem;
+  border-top: 0.3rem solid rgb(204, 204, 204);
+  border-bottom: 0.3rem solid rgb(204, 204, 204);
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }

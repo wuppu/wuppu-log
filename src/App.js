@@ -1,15 +1,54 @@
 import React, { Component } from "react";
-import Navigation from "./components/Navigation";
+import { HashRouter, Route } from "react-router-dom";
+import Algorithm from "./routes/Algorithm";
+import Home from "./routes/Home";
+import About from "./routes/About";
+import Project from "./routes/Project";
+import Hobby from "./routes/Hobby";
+import Navigation from "./components/navigation/Navigation";
 import "./App.css";
 
 class App extends Component {
+  navLinks = [
+    {
+      text: "HOME",
+      path: "/"
+    },
+    {
+      text: "ABOUT",
+      path: "/about"
+    },
+    {
+      text: "PROJECT",
+      path: "/project"
+    },
+    {
+      text: "ALGORITHM",
+      path: "/algorithm"
+    },
+    {
+      text: "HOBBY",
+      path: "/hobby"
+    }
+  ];
+
   render() {
     return (
       <div className="container">
-        <Navigation />
-        <div className="test">
-          <h1>Hi very~</h1>
-        </div>
+        <HashRouter>
+          <Navigation navLinks={this.navLinks} />
+          <section className="main__content">
+            <Route path="/" exact={true} component={Home} />
+            <Route path="/about" component={About} />
+            <Route path="/algorithm" component={Algorithm} />
+            <Route path="/project" component={Project} />
+            <Route path="/hobby" component={Hobby} />
+          </section>
+        </HashRouter>
+
+        <footer>
+          <h1>copyright&#169; wuppu</h1>
+        </footer>
       </div>
     );
   }

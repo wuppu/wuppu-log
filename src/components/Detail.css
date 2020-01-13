@@ -1,0 +1,13 @@
+.detail__main_title {
+    font-size: 5rem;
+}
+
+.detail__bg_title {
+    font-size: 13rem;
+    position: absolute;
+    top: 13%;
+    left: 20%;
+    color: rgba(100, 100, 100, 0.5);
+    z-index: -1;
+    overflow:hidden;
+}
