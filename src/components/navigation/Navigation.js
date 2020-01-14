@@ -18,6 +18,7 @@ function Navigation({ navLinks }) {
                   onMouseEnter={() => setHoverIndex(index)}
                   onMouseLeave={() => setHoverIndex(-1)}
                   className={hoverIndex === index ? "li__hover" : ""}
+                  style={{animation: navOpen ? `navLinkFade 0.5s ease forwards ${index / 7 + 0.2}s` : ""}}
                 >
                   {link.text}
                 </li>
@@ -25,9 +26,9 @@ function Navigation({ navLinks }) {
             ))}
           </ul>
           <div className={navOpen ? "toggle burger" : "burger"} onClick={() => setNavOpen(!navOpen)}>
-            <div className="line1"></div>
-            <div className="line2"></div>
-            <div className="line3"></div>
+            <span className="line1"></span>
+            <span className="line2"></span>
+            <span className="line3"></span>
           </div>
         </div>
       </nav>

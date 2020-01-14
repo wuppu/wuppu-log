@@ -37,13 +37,13 @@ class App extends Component {
       <div className="container">
         <HashRouter>
           <Navigation navLinks={this.navLinks} />
-          <section className="main__content">
+          <main>
             <Route path="/" exact={true} component={Home} />
             <Route path="/about" component={About} />
             <Route path="/algorithm" component={Algorithm} />
             <Route path="/project" component={Project} />
             <Route path="/hobby" component={Hobby} />
-          </section>
+          </main>
         </HashRouter>
 
         <footer>

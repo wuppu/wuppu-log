@@ -2,18 +2,23 @@
     font-size: 5rem;
 }
 
-/* .detail__bg_title {
+.detail__bg_title {
     font-size: 13rem;
+    width: 100%;
+    left: -10%;
+    text-indent: 30%;
     position: absolute;
     transform: translate(10%, -40%);
-    color: rgba(100, 100, 100, 0.5);
+    color: rgba(170, 170, 170, 0.5);
     overflow: hidden;
-    text-overflow: clip;    
-    white-space: nowrap;
-    z-index: -1;
-    
-} */
+    pointer-events: none;
+    z-index: -1;    
+}
 
 .detail {
-    width: 100px;
+    width: 100%;
+}
+
+.detail__content {
+    font-size: 1.6rem;
 }
