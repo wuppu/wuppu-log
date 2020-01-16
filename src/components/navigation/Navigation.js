@@ -9,7 +9,7 @@ function Navigation({ navLinks }) {
   return (
     <header>
       <nav className="nav__main">
-        <h1 className="nav__logo">Wuppu Log</h1>
+        <Link className="nav__logo" to="/">Wuppu Log</Link>
         <div className="nav__links_container">
           <ul className={navOpen ? "nav__links active" : "nav__links"}>
             {navLinks.map((link, index) => (

@@ -1,24 +1,43 @@
 .detail__main_title {
+    position: absolute;
     font-size: 5rem;
+    font-weight: 500;
+    transform: translate(5%, 0);
+    overflow: hidden;
+    white-space: nowrap;
 }
 
 .detail__bg_title {
-    font-size: 13rem;
-    width: 100%;
-    left: -10%;
-    text-indent: 30%;
     position: absolute;
-    transform: translate(10%, -40%);
-    color: rgba(170, 170, 170, 0.5);
+    font-size: 25rem;
+    font-weight: 300;
+    width: auto;
+    right: 0;
+    text-indent: 6%;
+    transform: translate(0, -45%);
+    color: rgb(95, 95, 95);
     overflow: hidden;
+    white-space: nowrap;
     pointer-events: none;
-    z-index: -1;    
 }
 
 .detail {
     width: 100%;
+    height: 65rem;
 }
 
-.detail__content {
-    font-size: 1.6rem;
+.detail__image {
+    object-fit: cover;
+    width: 100%;
+    height: 50rem;
 }
+
+@media screen and (max-width: 816px) {
+    .detail__image {
+        height: 30rem;
+    }
+
+    .detail__bg_title {
+        left: 0;
+    }
+  }

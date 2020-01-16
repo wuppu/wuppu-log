@@ -11,23 +11,23 @@ import "./App.css";
 class App extends Component {
   navLinks = [
     {
-      text: "HOME",
+      text: "Home",
       path: "/"
     },
     {
-      text: "ABOUT",
+      text: "About",
       path: "/about"
     },
     {
-      text: "PROJECT",
+      text: "Project",
       path: "/project"
     },
     {
-      text: "ALGORITHM",
-      path: "/algorithm"
+      text: "Algorithm",
+      path: "/algorithm",
     },
     {
-      text: "HOBBY",
+      text: "Hobby",
       path: "/hobby"
     }
   ];
@@ -38,9 +38,9 @@ class App extends Component {
         <HashRouter>
           <Navigation navLinks={this.navLinks} />
           <main>
-            <Route path="/" exact={true} component={Home} />
+            <Route path="/" exact={true} component={Home}/>
             <Route path="/about" component={About} />
-            <Route path="/algorithm" component={Algorithm} />
+            <Route path="/algorithm" component={Algorithm}/>
             <Route path="/project" component={Project} />
             <Route path="/hobby" component={Hobby} />
           </main>
