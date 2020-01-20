@@ -12,23 +12,28 @@ class App extends Component {
   navLinks = [
     {
       text: "Home",
-      path: "/"
+      path: "/",
+      component: Home
     },
     {
       text: "About",
-      path: "/about"
+      path: "/about",
+      component: About
     },
     {
       text: "Project",
-      path: "/project"
+      path: "/project",
+      component: Project
     },
     {
       text: "Algorithm",
       path: "/algorithm",
+      component: Algorithm
     },
     {
       text: "Hobby",
-      path: "/hobby"
+      path: "/hobby",
+      component: Hobby
     }
   ];
 
@@ -38,11 +43,13 @@ class App extends Component {
         <HashRouter>
           <Navigation navLinks={this.navLinks} />
           <main>
-            <Route path="/" exact={true} component={Home}/>
-            <Route path="/about" component={About} />
-            <Route path="/algorithm" component={Algorithm}/>
-            <Route path="/project" component={Project} />
-            <Route path="/hobby" component={Hobby} />
+            {this.navLinks.map((route, index) => (
+              <Route
+                path={route.path}
+                exact={true}
+                component={route.component}
+              />
+            ))}
           </main>
         </HashRouter>
 
