@@ -1,22 +1,23 @@
 {
   "files": {
-    "main.css": "/wuppu-log/static/css/main.e7a2fb92.chunk.css",
-    "main.js": "/wuppu-log/static/js/main.3809b5ab.chunk.js",
-    "main.js.map": "/wuppu-log/static/js/main.3809b5ab.chunk.js.map",
+    "main.css": "/wuppu-log/static/css/main.8fc56173.chunk.css",
+    "main.js": "/wuppu-log/static/js/main.cad33a90.chunk.js",
+    "main.js.map": "/wuppu-log/static/js/main.cad33a90.chunk.js.map",
     "runtime-main.js": "/wuppu-log/static/js/runtime-main.032dea16.js",
     "runtime-main.js.map": "/wuppu-log/static/js/runtime-main.032dea16.js.map",
-    "static/js/2.9ea82c87.chunk.js": "/wuppu-log/static/js/2.9ea82c87.chunk.js",
-    "static/js/2.9ea82c87.chunk.js.map": "/wuppu-log/static/js/2.9ea82c87.chunk.js.map",
+    "static/js/2.ca3a2237.chunk.js": "/wuppu-log/static/js/2.ca3a2237.chunk.js",
+    "static/js/2.ca3a2237.chunk.js.map": "/wuppu-log/static/js/2.ca3a2237.chunk.js.map",
     "index.html": "/wuppu-log/index.html",
-    "precache-manifest.1e96ef0e84dd016d73b7cb08de38e3ba.js": "/wuppu-log/precache-manifest.1e96ef0e84dd016d73b7cb08de38e3ba.js",
+    "precache-manifest.31399f2eb5134c2628b172e4f1f96db1.js": "/wuppu-log/precache-manifest.31399f2eb5134c2628b172e4f1f96db1.js",
     "service-worker.js": "/wuppu-log/service-worker.js",
-    "static/css/main.e7a2fb92.chunk.css.map": "/wuppu-log/static/css/main.e7a2fb92.chunk.css.map",
-    "static/js/2.9ea82c87.chunk.js.LICENSE": "/wuppu-log/static/js/2.9ea82c87.chunk.js.LICENSE"
+    "static/css/main.8fc56173.chunk.css.map": "/wuppu-log/static/css/main.8fc56173.chunk.css.map",
+    "static/js/2.ca3a2237.chunk.js.LICENSE": "/wuppu-log/static/js/2.ca3a2237.chunk.js.LICENSE",
+    "static/media/Algorithm_img.jpg": "/wuppu-log/static/media/Algorithm_img.0e01101d.jpg"
   },
   "entrypoints": [
     "static/js/runtime-main.032dea16.js",
-    "static/js/2.9ea82c87.chunk.js",
-    "static/css/main.e7a2fb92.chunk.css",
-    "static/js/main.3809b5ab.chunk.js"
+    "static/js/2.ca3a2237.chunk.js",
+    "static/css/main.8fc56173.chunk.css",
+    "static/js/main.cad33a90.chunk.js"
   ]
 }
