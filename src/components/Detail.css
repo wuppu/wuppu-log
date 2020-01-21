@@ -1,7 +1,7 @@
 .detail__main_title {
     position: absolute;
-    font-size: 5rem;
-    font-weight: 500;
+    font-size: 8rem;
+    font-weight: 600;
     transform: translate(5%, 0);
     overflow: hidden;
     white-space: nowrap;
@@ -10,12 +10,12 @@
 .detail__bg_title {
     position: absolute;
     font-size: 25rem;
-    font-weight: 400;
+    font-weight: 700;
     width: auto;
     right: 0;
     text-indent: 6%;
-    transform: translate(0, -45%);
-    color: rgba(98, 98, 98, 0.9);
+    transform: translate(0, -50%);
+    color: rgba(100, 100, 100, 1);
     overflow: hidden;
     white-space: nowrap;
     pointer-events: none;
@@ -37,7 +37,9 @@
     .detail__image {
         height: 30rem;
     }
-
+    .detail__main_title {
+        font-size: 5rem;
+    }
     .detail__bg_title {
         left: 0;
         font-size: 20rem;
